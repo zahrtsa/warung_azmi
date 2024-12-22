@@ -5,7 +5,7 @@ projek uas basdat, membuat database berdasarkan implementasi pada situasi nyata.
 membuat database warung sembako azmi
 
 ```bash
-  create database
+  CREATE DATABASE warung_azmi
 ```
 
-<img src="/img/create_db.png" width=100% height=250px>
+<img src="img/create_db.png" width="100%" height="100%">
