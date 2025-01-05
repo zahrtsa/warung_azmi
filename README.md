@@ -574,7 +574,7 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
 <div>
   <div>
     <h4>Tabel Keuangan : Command dan Hasil [Edit dan Update]</h4>
-    <img src="img/update keuangan.png" alt="Create Table Barang" width="412px">s
+    <img src="img/update keuangan.png" alt="Create Table Barang" width="412px">
     <img src="img/hasil updt keuangan.png" alt="Create Table Barang" width="412px">
   </div>
   <div>
