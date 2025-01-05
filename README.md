@@ -135,9 +135,22 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
 
 ```
 
-#### Screenshoot Command
+#### Screenshoot Command dan Hasil Tabel Barang
 
-<img src="img/create tb barang.png" alt="Create Table Barang" width="45%">
+<div align="center">
+  <div>
+    <a href="#">
+      <img src="img/create tb barang.png" alt="Create Table Barang" width="500px">
+    </a>
+    <a href="#">
+      <img src="img/struct tb.png" alt="Create Table Barang" width="500px">
+    </a>
+  </div>
+  <div>
+    <img src="img/create tb karyawan.png" alt="Create Table Barang" width="500px">
+    <img src="img/struct tb karywan.png" alt="Create Table Barang" width="500px">
+  </div>
+</div>
 <img src="img/create tb karyawan.png" alt="Create Table Karyawan" width="45%">
 <img src="img/create tb pemasok.png" alt="Create Table Pemasok" width="45%">
 <img src="img/create tb stok.png" alt="Create Table Stok" width="45%">
