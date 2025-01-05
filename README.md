@@ -1,6 +1,6 @@
 # DATABASE : Warung_sembako_azmi
 
-Projek uas basis data, membuat database berdasarkan implementasi pada situasi nyata. Contohnya warung sembako yang akan mengimplementasikannya menjadi relasi-relasi terkait entitas dalam tabel di database. Berikut step by step nya :
+Proyek ini bertujuan untuk merancang dan mengimplementasikan database berdasarkan situasi nyata. Sebagai contoh, sebuah warung sembako akan dijadikan kasus/topik implementasi untuk membangun relasi-relasi yang terkait dengan entitas-entitas dalam tabel database. Berikut adalah langkah-langkahnya:
 
 ## Membuat database warung sembako azmi
 
@@ -135,16 +135,50 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
 
 ```
 
-#### Screenshoot Command
+### Screenshoot Command dan Hasil Tabel
 
-<img src="img/create tb barang.png" alt="Create Table Barang" width="45%">
-<img src="img/create tb karyawan.png" alt="Create Table Karyawan" width="45%">
-<img src="img/create tb pemasok.png" alt="Create Table Pemasok" width="45%">
-<img src="img/create tb stok.png" alt="Create Table Stok" width="45%">
-<img src="img/create tb pembelian.png" alt="Create Table Pembelian" width="45%">
-<img src="img/create tb penjualan.png" alt="Create Table Penjualan" width="45%">
-<img src="img/create tb hutang.png" alt="Create Table Hutang" width="45%">
-<img src="img/create tb keuangan.png" alt="Create Table Keuangan" width="45%">
+<div align="center">
+  <div>
+    <h4 align="left">Tabel Barang : Query dan Command</h4>
+    <img src="img/create tb barang.png" alt="Create Table Barang" width="412px">
+    <img src="img/struct tb.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Tabel Karyawan : Query dan Command</h4>
+    <img src="img/create tb karyawan.png" alt="Create Table Barang" width="412px">
+    <img src="img/struct tb karywan.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Tabel Pemasok : Query dan Command</h4>
+    <img src="img/create tb pemasok.png" alt="Create Table Pemasok" width="412px">
+    <img src="img/struct tb pemasok.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Tabel Stok : Query dan Command</h4>
+    <img src="img/create tb stok.png" alt="Create Table Stok" width="412px">
+    <img src="img/struct tb stok.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Tabel Pembeliam : Query dan Command</h4>
+    <img src="img/create tb pembelian.png" alt="Create Table Pembelian" width="412px">
+    <img src="img/struct tb pembelian.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Tabel Penjualan : Query dan Command</h4>
+    <img src="img/create tb penjualan.png" alt="Create Table Penjualan" width="412px">
+    <img src="img/struct tb penjualan.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Tabel Hutang : Query dan Command</h4>
+    <img src="img/create tb hutang.png" alt="Create Table Hutang" width="412px">
+    <img src="img/struct tb hutang.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Tabel Keuangan : Query dan Command</h4>
+    <img src="img/create tb keuangan.png" alt="Create Table Keuangan" width="412px">
+    <img src="img/struct tb keuangan.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ## Melakukan Insert 20 Data Dummy Setiap Tabel
 
@@ -287,16 +321,50 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   (20, 20, 20, 500000.00, 800000.00, '2024-12-20');
 ```
 
-#### Screenshoot Command
+### Screenshoot Command dan Hasil Insert Data
 
-<img src="img/insert tb barang.png" alt="Create Table Barang" width="45%">
-<img src="img/insert tb karyawan.png" alt="Create Table Karyawan" width="45%">
-<img src="img/insert tb pemasok.png" alt="Create Table Pemasok" width="45%">
-<img src="img/insert tb stok.png" alt="Create Table Stok" width="45%">
-<img src="img/insert tb pembelian.png" alt="Create Table Pembelian" width="45%">
-<img src="img/insert tb penjualan.png" alt="Create Table Penjualan" width="45%">
-<img src="img/insert tb hutang.png" alt="Create Table Hutang" width="45%">
-<img src="img/insert tb keuangan.png" alt="Create Table Keuangan" width="45%">
+<div align="center">
+  <div>
+    <h4 align="left">Insert Tabel Barang : Query dan Hasil</h4>
+    <img src="img/insert tb barang.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil insert tb barang.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Insert Tabel Karyawan : Query dan Hasil</h4>
+    <img src="img/insert tb karyawan.png" alt="Create Table Karyawan" width="412px">
+    <img src="img/hasil insert tb karywan.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Insert Tabel Pemasok : Query dan Hasil</h4>
+    <img src="img/insert tb pemasok.png" alt="Create Table Pemasok" width="412px">
+    <img src="img/hasil insert tb pemasok.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Insert Tabel Stok : Query dan Hasil</h4>
+    <img src="img/insert tb stok.png" alt="Create Table Stok" width="412px">
+    <img src="img/hasil insert tb stok.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Insert Tabel Pembelian : Query dan Hasil</h4>
+    <img src="img/insert tb pembelian.png" alt="Create Table Pembelian" width="412px">
+    <img src="img/hasil insert tb pembelian.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Insert Tabel Penjualan : Query dan Hasil</h4>
+    <img src="img/insert tb penjualan.png" alt="Create Table Penjualan" width="412px">
+    <img src="img/hasil insert tb penjualan.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Insert Tabel Hutang : Query dan Hasil</h4>
+    <img src="img/insert tb hutang.png" alt="Create Table Hutang" width="412px">
+    <img src="img/hasil insert tb hutang.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4 align="left">Insert Tabel Keuangan : Query dan Hasil</h4>
+    <img src="img/insert tb keuangan.png" alt="Create Table Keuangan" width="412px">
+    <img src="img/hasil insert tb keuangan.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ## Manipulasi Data Setiap Tabel (SELECT, EDIT, UPDATE dan DELETE)
 
@@ -311,11 +379,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM barangs WHERE id = 20
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select barang.png" alt="Create Table Barang" width="45%">
-<img src="img/update barang.png" alt="Create Table Barang" width="45%">
-<img src="img/delete barang.png" alt="Create Table Barang" width="45%">
+<img src="img/select barang.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Barang : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update barang.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil update barang.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Barang : Command dan Hasil [Delete]</h4>
+    <img src="img/delete barang.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil delete barang.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ### Tabel karyawan
 
@@ -328,11 +406,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM karyawans WHERE id = 20
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select karyawan.png" alt="Create Table Barang" width="45%">
-<img src="img/update karyawan.png" alt="Create Table Barang" width="45%">
-<img src="img/delete karyawan.png" alt="Create Table Barang" width="45%">
+<img src="img/select karyawan.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Karyawan : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update karyawan.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil updt krywn.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Karyawan : Command dan Hasil [Delete]</h4>
+    <img src="img/delete karyawan.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil delete karyawan.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ### Tabel pemasok
 
@@ -345,11 +433,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM pemasoks WHERE id = 1
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select pemasok.png" alt="Create Table Barang" width="45%">
-<img src="img/update pemasok.png" alt="Create Table Barang" width="45%">
-<img src="img/delete pemasok.png" alt="Create Table Barang" width="45%">
+<img src="img/select pemasok.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Pemasok : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update pemasok.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil updt pemasok.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Pemasok : Command dan Hasil [Delete]</h4>
+    <img src="img/delete pemasok.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil dlt pemasok.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ### Tabel pembelian
 
@@ -362,11 +460,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM pembelians WHERE id = 19
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select pembelian.png" alt="Create Table Barang" width="45%">
-<img src="img/update pembelian.png" alt="Create Table Barang" width="45%">
-<img src="img/delete pembelian.png" alt="Create Table Barang" width="45%">
+<img src="img/select pembelian.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Pembelian : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update pembelian.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil update pembelian.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Pembelian : Command dan Hasil [Delete]</h4>
+    <img src="img/delete pembelian.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil dlt pembelian.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ### Tabel stok
 
@@ -379,11 +487,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM stoks WHERE id = 15
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select stok.png" alt="Create Table Barang" width="45%">
-<img src="img/update stok.png" alt="Create Table Barang" width="45%">
-<img src="img/delete stock.png" alt="Create Table Barang" width="45%">
+<img src="img/select stok.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Stok : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update stok.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil update stok.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Stok : Command dan Hasil [Delete]</h4>
+    <img src="img/delete stock.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil delete stok.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ### Tabel penjualan
 
@@ -396,11 +514,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM penjualans WHERE id = 2
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select penjualan.png" alt="Create Table Barang" width="45%">
-<img src="img/update penjualan.png" alt="Create Table Barang" width="45%">
-<img src="img/delete penjualan.png" alt="Create Table Barang" width="45%">
+<img src="img/select penjualan.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Penjualan : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update penjualan.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil updt penjuaan.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Penjualan : Command dan Hasil [Delete]</h4>
+    <img src="img/delete penjualan.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil dlt penjualan.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ### Tabel hutang
 
@@ -413,11 +541,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM hutangs WHERE id = 19
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select hutang.png" alt="Create Table Barang" width="45%">
-<img src="img/update hutang.png" alt="Create Table Barang" width="45%">
-<img src="img/delete hutang.png" alt="Create Table Barang" width="45%">
+<img src="img/select hutang.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Hutang : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update hutang.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil updt hutang.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Hutang : Command dan Hasil [Delete]</h4>
+    <img src="img/delete hutang.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil delet hutang.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ### Tabel keuangan
 
@@ -430,11 +568,21 @@ Command-comand dibawah digunakan untuk membuat tabel database beserta relasinya 
   DELETE FROM keuangans WHERE id = 10
 ```
 
-#### ScreenShoot Command
+#### ScreenShoot Command dan Hasil
 
-<img src="img/select keuangan.png" alt="Create Table Barang" width="45%">
-<img src="img/update keuangan.png" alt="Create Table Barang" width="45%">
-<img src="img/delete keuangan.png" alt="Create Table Barang" width="45%">
+<img src="img/select keuangan.png" alt="Create Table Barang" width="820px">
+<div>
+  <div>
+    <h4>Tabel Keuangan : Command dan Hasil [Edit dan Update]</h4>
+    <img src="img/update keuangan.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil updt keuangan.png" alt="Create Table Barang" width="412px">
+  </div>
+  <div>
+    <h4>Tabel Keuangan : Command dan Hasil [Delete]</h4>
+    <img src="img/delete keuangan.png" alt="Create Table Barang" width="412px">
+    <img src="img/hasil dlt keuangan.png" alt="Create Table Barang" width="412px">
+  </div>
+</div>
 
 ## Melakukan Konsep Transaksi
 
@@ -461,10 +609,19 @@ SELECT * FROM stoks WHERE barang_id = 1;
 COMMIT;
 ```
 
-#### ScreenShoot Command
+#### Kondisi Ketika Berhasil Melakukan Transaksi
 
-<img src="img/commit 1.png" alt="Create Table Barang" width="45%">
-<img src="img/commit 2.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/commit 1.png" alt="Create Table Barang" width="412px">
+  <img src="img/commit 2.png" alt="Create Table Barang" width="412px">
+</div>
+
+#### Kondisi Ketika Transaksi Gagal Dilakukan
+
+<div>
+  <img src="img/rollback 1.png" alt="Create Table Barang" width="412px">
+  <img src="img/rollback 2.png" alt="Create Table Barang" width="412px">
+</div>
 
 ## Membuat User Management dengan Privileged (Akses DB, INSERT, SELECT)
 
@@ -496,9 +653,11 @@ Perlu dilakukan pembuatan user untuk melakukan percobaan ini, karena by default 
 
 #### ScreenShoot Command
 
-<img src="img/create budi.png" alt="Create Table Barang" width="45%">
-<img src="img/create fitri.png" alt="Create Table Barang" width="45%">
-<img src="img/create zahra.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/create budi.png" alt="Create Table Barang" width="412px">
+  <img src="img/create fitri.png" alt="Create Table Barang" width="412px">
+  <img src="img/create zahra.png" alt="Create Table Barang" width="412px">
+</div>
 
 ### 2. Memberikan Akses User
 
@@ -531,9 +690,11 @@ GRANT ALL PRIVILEGES ON warung_azmi.* TO 'fitri'@'localhost';
 
 #### ScreenShoot Command
 
-<img src="img/grant budi.png" alt="Create Table Barang" width="45%">
-<img src="img/grant fitri.png" alt="Create Table Barang" width="45%">
-<img src="img/grant zahra.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/grant budi.png" alt="Create Table Barang" width="412px">
+  <img src="img/grant fitri.png" alt="Create Table Barang" width="412px">
+  <img src="img/grant zahra.png" alt="Create Table Barang" width="412px">
+</div>
 
 ### 3. Melihat Akses User
 
@@ -556,8 +717,10 @@ SHOW GRANTS FOR 'fitri'@'localhost';
 
 #### ScreenShoot Command
 
-<img src="img/hasil show grant fitri.png" alt="Create Table Barang" width="45%">
-<img src="img/hasil show grant zahra budi.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/hasil show grant fitri.png" alt="Create Table Barang" width="412px">
+  <img src="img/hasil show grant zahra budi.png" alt="Create Table Barang" width="412px">
+</div>
 
 ## Mencoba Hak Akses 3 User
 
@@ -569,13 +732,17 @@ SHOW GRANTS FOR 'fitri'@'localhost';
 
 #### Mencoba Melakukan (SELECT & Hasilnya)
 
-<img src="img/select budi.png" alt="Create Table Barang" width="45%">
-<img src="img/gagal select budi.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/select budi.png" alt="Create Table Barang" width="412px">
+  <img src="img/gagal select budi.png" alt="Create Table Barang" width="412px">
+</div>
 
 #### Mencoba Melakukan (INSERT & Hasilnya)
 
-<img src="img/insert budi.png" alt="Create Table Barang" width="45%">
-<img src="img/hasil insert budi.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/insert budi.png" alt="Create Table Barang" width="412px">
+  <img src="img/hasil insert budi.png" alt="Create Table Barang" width="412px">
+</div>
 
 Berdasarkan hasil tersebut, user budi dapat masuk kedalam mysql dengan kredensial akunnya dan dapat mengakses database warung_azmi, serta dapat melakukan beberapa command query. Akan tetapi sesuai pada pemberian hak akses sebelumnya menggunakan query ini dibawah ini, user budi hany bisa melakukan query <b>INSERT</b>
 
@@ -591,14 +758,17 @@ GRANT INSERT ON warung_azmi.* TO 'budi'@'localhost';
 
 #### Mencoba Melakukan (SELECT & Hasilnya)
 
-<img src="img/select zahra.png" alt="Create Table Barang" width="45%">
-<img src="img/hasil select zahra.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/select zahra.png" alt="Create Table Barang" width="412px">
+  <img src="img/hasil select zahra.png" alt="Create Table Barang" width="412px">
+</div>
 
 #### Mencoba Melakukan (INSERT & Hasilnya)
 
-<img src="img/insert zahra.png" alt="Create Table Barang" width="45%">
-<img src="img/gagal insert zahra.png" alt="Create Table Barang" width="45%">
-
+<div>
+  <img src="img/insert zahra.png" alt="Create Table Barang" width="412px">
+  <img src="img/gagal insert zahra.png" alt="Create Table Barang" width="412px">
+</div>
 Berdasarkan hasil tersebut, user zahra dapat masuk kedalam mysql dengan kredensial akunnya dan dapat mengakses database warung_azmi, serta dapat melakukan beberapa command query. Akan tetapi sesuai pada pemberian hak akses sebelumnya menggunakan query ini dibawah ini, userzahra hanya bisa melakukan query <b>SELECT</b>
 
 ```sql
@@ -613,9 +783,11 @@ GRANT SELECT ON warung_azmi.* TO 'zahra'@'localhost';
 
 #### Mencoba Melakukan Query (CRUD: SELECT, INSERT, UPDATE, DELETE)
 
-<img src="img/crud fitri.png" alt="Create Table Barang" width="45%">
-<img src="img/hasil crud fitri 1.png" alt="Create Table Barang" width="45%">
-<img src="img/hasil crud fitri 2.png" alt="Create Table Barang" width="45%">
+<div>
+  <img src="img/crud fitri.png" alt="Create Table Barang" width="412px">
+  <img src="img/hasil crud fitri 1.png" alt="Create Table Barang" width="412px">
+  <img src="img/hasil crud fitri 2.png" alt="Create Table Barang" width="412px">
+</div>
 
 Berdasarkan hasil tersebut, user fitri dapat masuk kedalam mysql dengan kredensial akunnya dan dapat mengakses database warung_azmi, serta dapat melakukan beberapa command query. User fitri ini memiliki hak akses dengan privileges lengkap sehingga dapat melakukan CRUD <i>(CREATE, READ, UPDATE, DELETE)</i> dengan command sql sebagai berikut : <b>SELECT, INSERT, UPDATE, DELETE</b>
 
