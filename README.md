@@ -1,6 +1,6 @@
 # DATABASE : Warung_sembako_azmi
 
-Projek uas basis data, membuat database berdasarkan implementasi pada situasi nyata. Contohnya warung sembako yang akan diimplementasikan menjadi relasi-relasi terkait entitas dalam tabel di database. Berikut step by step nya :
+Proyek ini bertujuan untuk merancang dan mengimplementasikan database berdasarkan situasi nyata. Sebagai contoh, sebuah warung sembako akan dijadikan kasus/topik implementasi untuk membangun relasi-relasi yang terkait dengan entitas-entitas dalam tabel database. Berikut adalah langkah-langkahnya:
 
 ## Membuat database warung sembako azmi
 
